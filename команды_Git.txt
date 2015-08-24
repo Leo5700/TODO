@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-08-24T23:37:37+03:00
+
+====== команды Git ======
+
+
+
+
+150404 == =л =git букварь (http://guides.railsgirls.com/github/ и http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/ch02.html):
+
+l@l-pc:~/myrep$ git clone https://github.com/i-k-i/ttt
+
+l@l-pc:~/myrep$  cd /home/l/myrep/ttt
+
+l@l-pc:~/myrep/ttt$ git status
+
+l@l-pc:~/myrep/ttt$ git add .
+
+l@l-pc:~/myrep/ttt$ git commit -a -m "test commit"
+
+l@l-pc:~/myrep/ttt$ git push -u origin master
+
+
+l@l-pc:~/myrep/ttt$ git pull origin master
+
+=git =book http://git-scm.com/book/ru/v2 
+
+
+git add . && git commit -a -m "test commit" && git push -u origin master

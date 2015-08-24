@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-08-24T23:28:47+03:00
+
+====== Home ======
+
+
+150824 == 
+Все задачи находятся в [[TODO]]
+
+Вот некоторый полезные [[команды Git]]
+
+
+
