@@ -6,11 +6,49 @@ Creation-Date: 2015-08-24T23:37:37+03:00
 
 
 
+
+
+151009-0208 == 2 скрипта
+
+pull_and_open_Zim.sh
+
+#!/bin/bash
+clear
+cd $(pwd)'/TODO' # Лезем в папку c репозиторием
+git pull origin master # Пулим
+xdg-open notebook.zim # Открываем notebook.zim приложением по умолчанию
+if [ $? -eq 1 ]
+    then
+    notify-send 'Zim TODO pulling NOT done. ERRORLEVEL 1.'
+    else
+    notify-send 'Zim TODO pulling done. ERRORLEVEL 0.'
+fi
+
+
+push_no_comments.sh
+
+#!/bin/bash
+clear
+cd $(pwd)'/TODO' # Лезем в папку c репозиторием
+# read -p 'Ваш комментарий: ' -e commit_text
+commit_text='no_comments'
+# Коммитим и пушим:
+git add .
+git commit -a -m $commit_text
+# git push -u origin master
+git config --global push.default simple # Иначе - ругается на невыставленную переменную
+git push --repo https://leo5700:1q2w3e4r@github.com/Leo5700/TODO.git
+if [ $? -eq 1 ]
+    then
+    notify-send 'Zim TODO pushing NOT done. ERRORLEVEL 1.'
+    else
+    notify-send 'Zim TODO pushing done. ERRORLEVEL 0.'
+fi
+
+
 151008 == 2 основные комманды
 git pull origin master
 git add . && git commit -a -m "test commit" && git push -u origin master
-
-
 
 
 150914 == https://git-scm.com/book/ru/v1/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%83%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC%D0%B8 
