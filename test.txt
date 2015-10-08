@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-10-09T01:31:53+03:00
+
+====== test ======
+Created Пятница 09 Октябрь 2015
+
+test
