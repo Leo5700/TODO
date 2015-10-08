@@ -1,12 +1,9 @@
 On branch master
-Your branch and 'origin/master' have diverged,
-and have 1 and 1 different commit each, respectively.
-  (use "git pull" to merge the remote branch into yours)
-
-All conflicts fixed but you are still merging.
-  (use "git commit" to conclude merge)
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
 
 Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
 	modified:   qqq
 	modified:   test.txt
