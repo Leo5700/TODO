@@ -1,12 +1,15 @@
 On branch master
-Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commit each, respectively.
+  (use "git pull" to merge the remote branch into yours)
 
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
 
-	modified:   qqq
-	modified:   test.txt
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:      test.txt
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -14,3 +17,4 @@ Changes not staged for commit:
 
 	modified:   qqq
 
+no changes added to commit (use "git add" and/or "git commit -a")
