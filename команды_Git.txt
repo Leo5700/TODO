@@ -37,7 +37,7 @@ git add .
 git commit -a -m $commit_text
 # git push -u origin master
 git config --global push.default simple # Иначе - ругается на невыставленную переменную
-git push --repo https://leo5700:1q2w3e4r@github.com/Leo5700/TODO.git
+git push --repo https://leo5700:_pass_@github.com/Leo5700/TODO.git
 if [ $? -eq 1 ]
     then
     notify-send 'Zim TODO pushing NOT done. ERRORLEVEL 1.'
