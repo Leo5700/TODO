@@ -8,10 +8,8 @@ Creation-Date: 2015-08-24T23:37:37+03:00
 
 
 
+ Git букварь: http://guides.railsgirls.com/github/ и http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/ch02.html
 
-
-
-150404 == =л =git букварь (http://guides.railsgirls.com/github/ и http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/ch02.html):
 
 l@l-pc:~/myrep$ git clone https://github.com/i-k-i/ttt
 
@@ -28,6 +26,15 @@ l@l-pc:~/myrep/ttt$ git push -u origin master
 
 l@l-pc:~/myrep/ttt$ git pull origin master
 
-=git =book http://git-scm.com/book/ru/v2 
+
+#git #book http://git-scm.com/book/ru/v2 
 
 
+
+
+---------------------------------==============---------------------------------
+
+
+====== LOG ======
+
+150404 ==
